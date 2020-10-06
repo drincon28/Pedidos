@@ -1,15 +1,25 @@
 <resources>
     <string name="app_name">Pedidos</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Pedidos</string>
     <string name="nav_header_subtitle">Sin filas, lo que te gusta!</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Configuracion</string>
 
-    <string name="menu_home">Inicio</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_signup">Registro</string>
+    <string name="menu_orderhist">Historial pedidos</string>
 
     <string name="app_logo_description">App Logo</string>
+
+    <string name="app_login_mail_hint">Correo</string>
+    <string name="app_login_password_hint">Contraseña</string>
+    <string name="app_login_password_reset_text">¿Olvido su contraseña?</string>
+    <string name="app_login_button_text">INICIAR SESION</string>
+    <string name="app_login_logo_content_desc">logo</string>
+
+    <string name="app_signup_name_hint">Nombres</string>
+    <string name="app_signup_mail_hint">Correo</string>
+    <string name="app_signup_password_hint">Contraseña</string>
+    <string name="app_signup_button_text">REGISTRO</string>
+    <string name="app_signup_logo_content_desc">logo</string>
 </resources>
