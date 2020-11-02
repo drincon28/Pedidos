@@ -39,6 +39,7 @@
 
     <!-- -->
     <string name="order_detail_img_desc">Product overview</string>
+    <string name="order_detail_logo_desc">Product overview</string>
     <string name="order_detail_product_name">Nombre producto</string>
     <string name="order_detail_product_cost">$50.000</string>
     <string name="order_detail_product_detail">Combo Familiar 1</string>
