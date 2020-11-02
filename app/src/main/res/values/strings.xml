@@ -36,4 +36,11 @@
     <string name="botton_nav_title_orders">orders</string>
     <string name="botton_nav_title_coupons">coupons</string>
     <string name="botton_nav_title_search">search</string>
+
+    <!-- -->
+    <string name="order_detail_img_desc">Product overview</string>
+    <string name="order_detail_product_name">Nombre producto</string>
+    <string name="order_detail_product_cost">$50.000</string>
+    <string name="order_detail_product_detail">Combo Familiar 1</string>
+    <string name="order_detail_purchase_date">31-OCT-2020</string>
 </resources>
