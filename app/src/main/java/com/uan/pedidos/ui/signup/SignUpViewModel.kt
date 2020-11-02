@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class SignUpViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is sign-up Fragment"
+        value = ""
     }
     val text: LiveData<String> = _text
 }
