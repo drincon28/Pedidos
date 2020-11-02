@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/nav_login">
+    app:startDestination="@+id/nav_order_hist">
 
     <fragment
         android:id="@+id/nav_login"
@@ -21,4 +21,10 @@
         android:name="com.uan.pedidos.ui.orderhistory.OrderHistFragment"
         android:label="@string/menu_orderhist"
         tools:layout="@layout/fragment_order_hist" />
+
+    <fragment
+        android:id="@+id/nav_user_account"
+        android:name="com.uan.pedidos.ui.user.UserAccountFragment"
+        android:label="@string/user_account_nav_text"
+        tools:layout="@layout/user_account" />
 </navigation>
