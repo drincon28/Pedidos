@@ -26,10 +26,15 @@
 
     <!-- -->
     <string name="app_signup_name_hint">Nombres</string>
+    <string name="app_signup_surname_hint">Apellidos</string>
     <string name="app_signup_mail_hint">Correo</string>
+    <string name="app_signup_phone_hint">Telefono</string>
     <string name="app_signup_password_hint">Contraseña</string>
     <string name="app_signup_button_text">REGISTRO</string>
     <string name="app_signup_logo_content_desc">logo</string>
+
+    <!-- -->
+    <string name="app_signup_confirm_hint">OK :D</string>
 
     <!-- -->
     <string name="botton_nav_title_home">home</string>

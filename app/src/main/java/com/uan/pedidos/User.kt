@@ -1,6 +1,6 @@
 package com.uan.pedidos
 
-class User (mail: String, names: String, userID: Int, surname: String, upassword: String, phoneNumber: Int){
+class User (names: String, surname: String, mail: String, phoneNumber: String, upassword: String){
 
     private var mail: String = ""
 
@@ -12,7 +12,7 @@ class User (mail: String, names: String, userID: Int, surname: String, upassword
 
     private var upassword = ""
 
-    private var phoneNumber = 0
+    private var phoneNumber = ""
 
     /* SETTERS */
     fun setID(userID: Int){
@@ -35,7 +35,7 @@ class User (mail: String, names: String, userID: Int, surname: String, upassword
         this.upassword = upassword
     }
 
-    fun setPhoneNumber(phoneNumber: Int){
+    fun setPhoneNumber(phoneNumber: String){
         this.phoneNumber = phoneNumber
     }
 
@@ -57,7 +57,7 @@ class User (mail: String, names: String, userID: Int, surname: String, upassword
         return this.upassword
     }
 
-    fun getPhoneNumber(): Int {
+    fun getPhoneNumber(): String {
         return this.phoneNumber
     }
 

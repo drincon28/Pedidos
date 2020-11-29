@@ -35,7 +35,10 @@ class DataBaseRW (var context: Context) : SQLiteOpenHelper(context, "pedidosdb",
         val contentValues = ContentValues()
 
         contentValues.put(COL_NAME, user.getName())
+        contentValues.put(COL_SURNAME, user.getSurname())
         contentValues.put(COL_MAIL, user.getMail())
+        contentValues.put(COL_PHONE, user.getPhoneNumber())
+        contentValues.put(COL_PASSWORD, user.getPassword())
 
         val result = database.insert(TABLENAME, null, contentValues)
 
@@ -55,15 +58,23 @@ class DataBaseRW (var context: Context) : SQLiteOpenHelper(context, "pedidosdb",
         val db = this.readableDatabase
         val query = "Select * from $TABLENAME"
         val result = db.rawQuery(query, null)
+
         if (result.moveToFirst()) {
             do {
-                val user = User("", "", 0, "", "", 0)
+                val user = User("", "", "", "", "")
+
                 user.setID(result.getString(result.getColumnIndex(COL_ID)).toInt())
                 user.setName(result.getString(result.getColumnIndex(COL_NAME)))
+                user.setSurname(result.getString(result.getColumnIndex(COL_SURNAME)))
+                user.setMail(result.getString(result.getColumnIndex(COL_MAIL)))
+                user.setPhoneNumber(result.getString(result.getColumnIndex(COL_PHONE)))
+                user.setPassword(result.getString(result.getColumnIndex(COL_PASSWORD)))
+
                 list.add(user)
             }
             while (result.moveToNext())
         }
+
         return list
     }
 }
