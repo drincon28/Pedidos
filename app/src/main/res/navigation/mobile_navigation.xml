@@ -33,4 +33,10 @@
         android:name="com.uan.pedidos.ui.user.ActivitySearchFragment"
         android:label=""
         tools:layout="@layout/activity_search" />
+
+    <fragment
+        android:id="@+id/nav_activity_coupons"
+        android:name="com.uan.pedidos.ui.user.ActivityCouponsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_user_coupons" />
 </navigation>

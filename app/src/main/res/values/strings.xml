@@ -51,6 +51,11 @@
     <string name="order_detail_purchase_date">31-OCT-2020</string>
 
     <!-- -->
+    <string name="coupon_value">$10.000</string>
+    <string name="coupon_description">En cualquier producto</string>
+    <string name="coupon_title_text">Mis cupones</string>
+
+    <!-- -->
     <string name="user_account_nav_text">Guardar cambios</string>
     <string name="user_account_save_changes">Guardar cambios</string>
 </resources>
